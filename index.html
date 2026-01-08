@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asad Ali Portfolio | NextGen Digital</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <div class="social-bar">
+        <a href="https://github.com/asad11ali"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/asad11ali/"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+    </div>
+
+    <div class="progress-wrap" id="scrollProgress">
+        <svg width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+        <span class="percent-val">0%</span>
+    </div>
+
+    <header id="mainHeader">
+        <a href="#" class="footer-logo" style="margin-top: 15px; color: #2563eb; font-size: 1.3rem; text-decoration: none; display: flex; align-items: center; justify-content: center;  height: 50px;"> <img src="logo.png" alt=""></a>
+        
+        <div class="header-center">
+            <div class="stat-item">
+                <span class="stat-value">50+</span>
+                <span class="stat-label">Projects</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-value">99.9%</span>
+                <span class="stat-label">Happy</span>
+            </div>
+            <div id="clock-container">
+                <div class="live-dot"></div>
+                <div id="clock">00:00:00 AM</div>
+            </div>
+        </div>
+
+        <nav>
+            <ul style="list-style: none; display: flex; gap: 20px; align-items: center;">
+                <li><a href="#projects" class="nav-link">Work</a></li>
+                <li><a href="#contact" class="btn-main" style="padding: 8px 20px; font-size:0.8rem;">Contact Me</a></li>
+                <li><button id="theme-toggle" class="theme-toggle"><i class="fas fa-moon"></i></button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" data-aos="zoom-out-up">
+        <div class="banner-shape shape-1"></div>
+        <div class="banner-shape shape-2"></div>
+
+        <div class="banner-flex">
+            <div class="banner-text-content">
+                <h4 style="color: var(--primary); letter-spacing: 5px; margin-bottom: 20px; font-weight: 800;">Hey! I'm Asad Ali</h4>
+                <h1 style="font-size: 4rem; font-weight: 700; line-height: 1; margin-bottom: 25px;">Building Digital Products <br> With <span style="color: var(--primary)">Precision.</span></h1>
+                
+                <div class="tech-badge-container">
+                    <span class="tech-badge"><i class="fab fa-js"></i> JavaScript</span>
+                    <span class="tech-badge"><i class="fab fa-react"></i> React</span>
+                    <span class="tech-badge"><i class="fab fa-wordpress"></i> WordPress</span>
+                    <span class="tech-badge"><i class="fas fa-code"></i> FSE</span>
+                </div>
+
+                <p style="font-size: 1.2rem; color: #64748b; margin-bottom: 35px;">We turn complex problems into beautiful, high-performance web experiences.</p>
+                <a href="#projects" class="btn-main">View Recent Work</a>
+            </div>
+
+            <div class="banner-image-area" data-aos="fade-left" data-aos-delay="400">
+                <div class="image-placeholder">
+                    <img src="mypic.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="reveal center" style="margin-bottom: 6rem; text-align: center;">Project Impact</h2>
+            <div class="ratings-grid">
+                <div class="rating-item reveal">
+                    <div class="circle-stat">
+                        <span class="counter" data-target="98">0</span>%
+                    </div>
+                    <p>Client Satisfaction</p>
+                </div>
+                <div class="rating-item reveal">
+                    <div class="circle-stat">
+                        <span class="counter" data-target="50">0</span>+
+                    </div>
+                    <p>Projects Done</p>
+                </div>
+                <div class="rating-item reveal">
+                    <div class="circle-stat">
+                        <span class="counter" data-target="120">0</span>%
+                    </div>
+                    <p>Performance Boost</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2 data-aos="fade-right">Portfolio Showcase</h2>
+        <div class="grid">
+            <div class="card" data-aos="fade-up">
+                <div style="height: 200px; background: #f1f5f9; border-radius: 12px; margin-bottom: 20px;" class="placeholder-img"></div>
+                <h3>E-Commerce Engine</h3>
+                <p>A headless commerce solution built for scale.</p>
+            </div>
+            <div class="card" data-aos="fade-up" data-aos-delay="100">
+                <div style="height: 200px; background: #f1f5f9; border-radius: 12px; margin-bottom: 20px;" class="placeholder-img"></div>
+                <h3>SaaS Dashboard</h3>
+                <p>Enterprise-level data visualization platform.</p>
+            </div>
+            <div class="card" data-aos="fade-up" data-aos-delay="200">
+                <div style="height: 200px; background: #f1f5f9; border-radius: 12px; margin-bottom: 20px;" class="placeholder-img"></div>
+                <h3>AI Assistant App</h3>
+                <p>Integrating GPT-4 into mobile workflows.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section soft">
+        <div class="container">
+            <h2 class="reveal">Core Skills</h2>
+            <div class="skills-grid">
+                <div class="skill reveal">HTML / CSS / JS</div>
+                <div class="skill reveal">UI / UX Design</div>
+                <div class="skill reveal">WordPress & FSE</div>
+                <div class="skill reveal">Performance & SEO</div>
+                <div class="skill reveal">Brand Systems</div>
+                <div class="skill reveal">Responsive Design</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" style="overflow: hidden; padding: 100px 0;">
+        <h2 style="text-align: center; margin-bottom: 50px;" data-aos="fade-up">Client Feedback</h2>
+        <div class="testimonial-slider">
+            <div class="testimonial-track">
+                <div class="testimonial-card">
+                    <p>"Asad is a visionary developer. The precision in his code is unmatched."</p>
+                    <div class="client-info"><strong>Alex Rivera</strong> <span>CEO, TechFlow</span></div>
+                </div>
+                <div class="testimonial-card">
+                    <p>"The best UI/UX experience we've ever had. Highly recommend for SaaS."</p>
+                    <div class="client-info"><strong>Sarah Chen</strong> <span>Product Manager</span></div>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Speed, quality, and communication. Asad delivered beyond our expectations."</p>
+                    <div class="client-info"><strong>James Wilson</strong> <span>Founder, Nexa</span></div>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Asad is a visionary developer. The precision in his code is unmatched."</p>
+                    <div class="client-info"><strong>Alex Rivera</strong> <span>CEO, TechFlow</span></div>
+                </div>
+                <div class="testimonial-card">
+                    <p>"The best UI/UX experience we've ever had. Highly recommend for SaaS."</p>
+                    <div class="client-info"><strong>Sarah Chen</strong> <span>Product Manager</span></div>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Speed, quality, and communication. Asad delivered beyond our expectations."</p>
+                    <div class="client-info"><strong>James Wilson</strong> <span>Founder, Nexa</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" data-aos="fade-up">
+        <div style="text-align: center; margin-bottom: 50px;">
+            <h2>Get In Touch</h2>
+            <p>Have a project in mind? Let's create something great.</p>
+        </div>
+        
+        <div class="contact-container">
+            <div>
+                <h3 style="margin-bottom: 20px;">Contact Information</h3>
+                <p style="color: #64748b; margin-bottom: 30px;" class="contact-subtext">I'm currently accepting new projects and would love to hear about yours.</p>
+                <div style="display: flex; flex-direction: column; gap: 15px;">
+                    <span><i class="fas fa-envelope" style="color:var(--primary); margin-right:10px;"></i> info.asad11ali@gmail.com</span>
+                    <span><i class="fas fa-phone" style="color:var(--primary); margin-right:10px;"></i> +92 347 044 9995</span>
+                    <span><i class="fas fa-map-marker-alt" style="color:var(--primary); margin-right:10px;"></i> Lahore, Pakistan</span>
+                </div>
+            </div>
+            <form id="contactForm" action="https://formspree.io/f/xlgdbwqy" method="POST">
+                <div class="form-group">
+                    <label>YOUR NAME</label>
+                    <input type="text" name="name" placeholder="Asad Ali" required>
+                </div>
+                <div class="form-group">
+                    <label>EMAIL ADDRESS</label>
+                    <input type="email" name="email" placeholder="asad@example.com" required>
+                </div>
+                <div class="form-group">
+                    <label>MESSAGE</label>
+                    <textarea name="message" rows="4" placeholder="How can I help you?" required></textarea>
+                </div>
+                <button type="submit" id="submitBtn" class="btn-main" style="width: 100%;">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-grid">
+            <div>
+                <span class="footer-logo">ASAD<span> ALI.</span></span>
+                <p style="color: #94a3b8;">Available for world-wide remote collaboration.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Navigation</h4>
+                <a href="#home">Home</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-links">
+                <h4>Socials</h4>
+                <a href="https://github.com/asad11ali">Github</a>
+                <a href="https://www.linkedin.com/in/asad11ali/">LinkedIn</a>
+                <a href="#">Dribbble</a>
+            </div>
+            <div class="footer-links">
+                <div>
+                    <h4>Newsletter</h4>
+                    <p style="font-size: 0.8rem; color: #94a3b8; margin-bottom: 15px;">Get monthly design inspiration.</p>
+                    <div style="display: flex; gap: 5px;">
+                        <input type="text" placeholder="Email" style="padding:10px; border-radius:8px; border:none; background:#1e293b; color:white; width: 100%;">
+                        <button class="btn-main" style="padding: 10px 15px;"><i class="fas fa-paper-plane"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="margin-top: 70px; text-align: center; color: #64748b;">
+            &copy; <span id="year"></span> Asad Ali Portfolio. Crafted for Perfection.
+        </div>
+    </footer>
+
+    <a href="#contact" class="btn-main hire-me">HIRE ME NOW</a>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
